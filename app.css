@@ -1,0 +1,74 @@
+* {
+  text-align: center;
+  margin: 10px;
+  font-size: 16px;
+  font-family: 'Times New Roman', serif;
+  background-color: 		rgb(245,255,250);
+}
+
+.header {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 2.5em; 
+  padding: 20px 0;
+}
+
+.startDisplay {
+  padding-bottom: 10px;
+}
+
+.startDisplay > p {
+  font-size: 1.4em;
+  line-height: 2em;
+  padding: 10px;
+}
+
+.info {
+  text-align: center;
+  border-style: solid;
+  margin: 0 50px;
+}
+
+li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.form {
+  padding-top: 15px;
+}
+
+label {
+  font-size: 1em;
+}
+
+button {
+  background-color: rgb(144,238,144,.5);
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+input[type="radio"] {
+  float: left;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+form div, li {
+  list-style-position: inside; 
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+.finalText, .correct, .wrong {
+  font-size: 1.5em;
+  padding-top: 30px;
+}
